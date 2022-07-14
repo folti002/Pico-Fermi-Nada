@@ -15,8 +15,8 @@
 }
 
 .content-wrapper {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* End of general classes */
@@ -30,7 +30,7 @@
 }
 
 .pfn-logo {
-  width: 100%;
+  width: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,3 +41,17 @@
 }
 
 /* End of top of page */
+
+/* Related to buttons */
+
+button {
+  margin: auto;
+  width: 100px;
+}
+
+.betweenButtons {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* End of related to buttons */

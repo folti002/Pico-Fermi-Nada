@@ -23,6 +23,7 @@
     <header class="page-header">
       <div class="my-logo-header">
         <a href="https://www.youtube.com/channel/UCCiVAGvvH6vE24EKkVVJbJQ">
+        <a href="https://youtube.com/mikkelfolting">
           <img class="my-logo-image" src="Images/pfnLogo.png" alt="Pico Fermi Nada Logo!">
         </a>
       </div>
@@ -38,36 +39,37 @@
       </div>
     </header>
 
-      <!-- Contains buttons to start game - these will disappear once user starts game -->
-      <div class="header content content-wrapper" id="content">
-        <div class="betweenButtons">
-          <button>
-            Play
-          </button>
-        </div>
-        <div class="betweenButtons">
-          <button>
-            Rules
-          </button>
-        </div>
-        <div class="betweenButtons">
-          <button>
-            Settings
-          </button>
-        </div>
-        <div class="betweenButtons">
-          <button>
-            Stats
-          </button>
-        </div>
+    <!-- Contains buttons to start game - these will disappear once user starts game -->
+    <div class="header content content-wrapper" id="content">
+      <div class="betweenButtons">
+        <button onclick=displayGame()>
+          Play
+        </button>
       </div>
+      <div class="betweenButtons">
+        <button onclick=displayRules()>
+          Rules
+        </button>
+      </div>
+      <div class="betweenButtons">
+        <button onclick=displaySettings()>
+          Settings
+        </button>
+      </div>
+      <div class="betweenButtons">
+        <button onclick="displayScores()">
+          Scores
+        </button>
+      </div>
+    </div>
 
-      <!-- What game will look like (just including it here for reference) -->
-      <div class="header content content-wrapper">
-        <div class="">
-          
-        </div>
+    <!-- What game will look like (just including it here for reference) -->
+    <div class="header content content-wrapper">
+      <div class="">
+        
       </div>
+    </div>
+
     </div>
   </body>
 </html>
